@@ -1,6 +1,6 @@
 # Sistema de Duelos entre alumnos de Hogwarts
 
-### Como funciona:
+### Como funciona
 Todos los alumnos que hayan generado puntos para su casa, podrán batirse a un duelo con cualquier alumno que no pertenezca a su misma casa.
 El duelo consiste en un juego por turnos, cada uno deberá ejecutar el comando !roll para obtener un número entre 1 y 300. Ganará el primero que tire 1.
 El rango de busqueda del numero 1 irá haciendose mas corta conforme vayan avanzando los turnos dado que el número máximo de busqueda del siguiente turno será el número menos obtenido en el turno actual. 
@@ -11,7 +11,6 @@ Por ejemplo:
 La busqueda es totalmente aleatoria, de modo que ambos jugadores tienen la misma posibilidad de ganar el duelo.
 El alumno que resulte ganador se le otorgarán los puntos apostados a su casa y al jugador que resulte perdedor les serán descontados los puntos apostados.
 
- 
 
 ### Reglas del Juego
 1.  Los jugadores deberán de contar con puntos disponibles.
@@ -24,8 +23,12 @@ El alumno que resulte ganador se le otorgarán los puntos apostados a su casa y 
 8.  El alumno retado tiene derecho de rechazar el duelo.
 9.  Los jugadores deberán pertenecer a casas diferentes.
 
+<<<<<<< HEAD
 
 ### Cosas a tomar en cuenta:
+=======
+### Cosas a tomar en cuenta
+>>>>>>> Agregamos Duelos.md
 1. Los participantes deberán pertenecer a casas diferentes.
 2. Solo se podrán apostar los puntos generados por el retador. Si el retador solo dispone de 200 puntos, no podrá apostar mas de esa cantidad.
 3. El alumno retado tendrá el derecho a rechazar el duelo.
