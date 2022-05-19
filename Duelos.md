@@ -15,7 +15,7 @@ El alumno que resulte ganador se le otorgarán los puntos apostados a su casa y 
 
 ### Reglas del Juego
 1.  Los jugadores deberán de contar con puntos disponibles.
-2.  No se podrán apostar mas puntos de los que disponga el alumno retador.
+2.  La apuesta máxima de puntos será de 300 puntos.
 3.  El alumno que es retado deberá de ser conciente de que el retador puede apostar mas puntos de los que dispone.
 4.  Para continuar el duelo el retador tiene y deberá estar de acuerdo con el reto y los puntos apostados.
 5.  Si uno de los 2 jugadores decide abandonar el duelo, automaticamente perderá los puntos apostados.
@@ -23,6 +23,7 @@ El alumno que resulte ganador se le otorgarán los puntos apostados a su casa y 
 7.  No se puede estar en mas de un duelo a la vez.
 8.  El alumno retado tiene derecho de rechazar el duelo.
 9.  Los jugadores deberán pertenecer a casas diferentes.
+
 
 ### Cosas a tomar en cuenta:
 1. Los participantes deberán pertenecer a casas diferentes.

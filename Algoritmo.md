@@ -2,14 +2,14 @@
 -------
 
 ## Comandos Previstos:
-- **!duel [puntosAportados] @usuario:**  Crear un duelo.
+- **!duel @usuario [puntosAportados]:**  Crear un duelo.
 - **!acceptD:** Aceptar un duelo.
 - **!declineD:** Rechazar un duelo.
 - **!roll**: Obtener un número aleatorio.
 - **!cancelD [idDuelo]:** Cancela un duelo (Solo lo podran ejecutar el streamer o un mod)
 - **!runD:**
 - **!infoD [idDuelo]**
-- **!helpD**
+- **!rulesD**
 
 ## Posibles estatus del duelo:
 1: **Preparado**
