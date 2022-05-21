@@ -23,12 +23,8 @@ El alumno que resulte ganador se le otorgarán los puntos apostados a su casa y 
 8.  El alumno retado tiene derecho de rechazar el duelo.
 9.  Los jugadores deberán pertenecer a casas diferentes.
 
-<<<<<<< HEAD
 
 ### Cosas a tomar en cuenta:
-=======
-### Cosas a tomar en cuenta
->>>>>>> Agregamos Duelos.md
 1. Los participantes deberán pertenecer a casas diferentes.
 2. Solo se podrán apostar los puntos generados por el retador. Si el retador solo dispone de 200 puntos, no podrá apostar mas de esa cantidad.
 3. El alumno retado tendrá el derecho a rechazar el duelo.
