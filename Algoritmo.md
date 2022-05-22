@@ -6,9 +6,15 @@
 - **!acceptD:** Aceptar un duelo.
 - **!declineD:** Rechazar un duelo.
 - **!cancelD [idDuelo]:** Cancela un duelo (Solo lo podran ejecutar el streamer o un mod)
-- **!runD:**
-- **!infoD [idDuelo]**
-- **!rulesD**
+- **!runD: [idDuelo]** Iniciará un duelo de manera forzada (Solo lo podrán ejecutar el streamer o un mod)
+- **!infoD [idDuelo]** Mostrará la informacion de duelo. Ejemplo: @Geminis21 ha retado a @SoraTakarai a un duelo por 300 puntos
+- **!rulesD** Mostrará las reglas de los duelos
+- **!myduels** Mostrará la estadistica de duelos de quien lo ejecute
+- **!mvD** Mostrará quien es el mejor duelista de Hogwarts
+- **!wD** Mostrará quien es el peor duelista de Hogwarts
+- **!mvD [gryff|raven|huff|slyth]** Mostrará quien es el mejor duelista de una casa
+- **!wD [gryff|raven|huff|slyth]** Mostrará quien es el peor duelista de una casa
+
 
 ## Posibles estatus del duelo:
 1: **Preparado**
@@ -19,22 +25,17 @@
 
 
 ## Algoritmo
-1. El <i style="color:#ff0000">retador</i> inicia el duelo
+1. Se verifica que ambos jugadores esten registrados en alguna casa y que sean de casas diferentes
 2. Se verifica que el retador tenga los puntos apostados
-    - Si no los tiene se alerta que no puede aportar X puntos porque no los tiene
-    - Sino se crea el registro del duelo, quedando en estatus Preparado
-3. Se espera confirmación del oponente.
-    - Si no acepta, alertar que el duelo no fue aceptado
-    - Si el oponente acepta comienza el duelo.
-4. Se establece número máximo y se crea registro de turno 
-    - Se verifica que no haya lanzado ya el jugador en el turno actual
-        - Si ya lanzó, mandar mensaje de esperando al oponente (se puede poner el nombre del usuario)
-    - Se ejecuta la funcion roll y se registra el numero obtenido
-        - Si el numero obtenido es 1, se termina el turno, el duelo y se declara ganador
-    - Se verifica que ambos jugadores hayan completado su turno.
-        - Si aun falta alguien se notifica
-        - Si no se repite el proceso hasta que haya un ganador.
-    
+    - En caso de no tenerlos, alertar de la falta de puntos
+3. Registrar en DB el nuevo duelo
+4. Notificar al estudiante que ha sido retado
+    - Si no acepta, notificar que no habrá duelo
+5. Se ejecuta el duelo
+6. Se actualiza el registro del duelo
+7. Se procede a restar puntos al perdedor y otorgarlos al ganador
+
+ 
 
     
 
