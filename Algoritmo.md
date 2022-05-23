@@ -27,7 +27,7 @@
 
 ## Algoritmo
 1. Se verifica que ambos jugadores no esten involucrados en otro duelo.
-    - Si al menos un lo esta se cancelará el duelo.
+    - Si al menos uno lo está se cancelará el duelo.
 2. Se verifica que ambos jugadores esten registrados en alguna casa y que sean de casas diferentes.
 3. Se verifica que el retador tenga los puntos apostados.
     - En caso de no tenerlos, alertar de la falta de puntos.
