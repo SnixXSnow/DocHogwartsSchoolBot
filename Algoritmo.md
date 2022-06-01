@@ -3,12 +3,12 @@
 
 ## Comandos Previstos:
 - **!duel @usuario [puntosAportados]:**  Crear un duelo.
-- **!acceptD:** Aceptar un duelo.
-- **!declineD:** Rechazar un duelo.
-- **!cancelD [idDuelo]:** Cancela un duelo (Solo lo podran ejecutar el streamer o un mod)
-- **!runD: [idDuelo]** Iniciará un duelo de manera forzada (Solo lo podrán ejecutar el streamer o un mod)
-- **!infoD [idDuelo]** Mostrará la informacion de duelo. Ejemplo: @Geminis21 ha retado a @SoraTakarai a un duelo por 300 puntos
-- **!rulesD** Mostrará las reglas de los duelos
+- **!accept:** Aceptar un duelo.
+- **!decline:** Rechazar un duelo.
+- **!cancel [idDuelo]:** Cancela un duelo (Solo lo podran ejecutar el streamer o un mod)
+- **!runduel: [idDuelo]** Iniciará un duelo de manera forzada (Solo lo podrán ejecutar el streamer o un mod)
+- **!infoduel [idDuelo]** Mostrará la informacion de duelo. Ejemplo: @Geminis21 ha retado a @SoraTakarai a un duelo por 300 puntos
+- **!rules** Mostrará las reglas de los duelos
 - **!myduels** Mostrará la estadistica de duelos de quien lo ejecute
 - **!mvD** Mostrará quien es el mejor duelista de Hogwarts
 - **!wD** Mostrará quien es el peor duelista de Hogwarts
