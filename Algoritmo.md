@@ -15,6 +15,7 @@
 - **!mvD [gryff|raven|huff|slyth]** Mostrará quien es el mejor duelista de una casa
 - **!wD [gryff|raven|huff|slyth]** Mostrará quien es el peor duelista de una casa
 - **!dip** Listará los duelos activos (estatus 1,2)
+- **!mycurrentduel** Mostrará la información del duelo activo
 
 ## Posibles estatus del duelo:
 * 0: **Cancelado** (Cuando el streamer o un mod deciden cancelar un duelo)
