@@ -17,12 +17,12 @@
 - **!dip** Listará los duelos activos (estatus 1,2)
 
 ## Posibles estatus del duelo:
-0: **Cancelado** (Cuando el streamer o un mod deciden cancelar un duelo)
-1: **Preparado** (Cuando el retador hace la propuesta del reto)
-2: **Aceptado** (Cuando el oponente acepta el duelo)
-3: **Rechazado** (Cuando el oponente rechaza el duelo)
-4: **En ejecución** (Cuando se está ejecutando el duelo)
-5: **Terminado** (Cuando termina el duelo)
+* 0: **Cancelado** (Cuando el streamer o un mod deciden cancelar un duelo)
+* 1: **Preparado** (Cuando el retador hace la propuesta del reto)
+* 2: **Aceptado** (Cuando el oponente acepta el duelo)
+* 3: **Rechazado** (Cuando el oponente rechaza el duelo)
+* 4: **En ejecución** (Cuando se está ejecutando el duelo)
+* 5: **Terminado** (Cuando termina el duelo)
 
 
 ## Algoritmo
