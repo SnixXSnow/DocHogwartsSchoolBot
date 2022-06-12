@@ -3,19 +3,19 @@
 
 ## Comandos Previstos:
 - [x] **!duel @usuario [puntosAportados]:**  Crear un duelo.
-- **!accept:** Aceptar un duelo.
-- **!decline:** Rechazar un duelo.
-- **!cancel [idDuelo]:** Cancela un duelo (Solo lo podran ejecutar el streamer o un mod)
-- **!runduel: [idDuelo]** Iniciará un duelo de manera forzada (Solo lo podrán ejecutar el streamer o un mod)
-- **!infoduel [idDuelo]** Mostrará la informacion de duelo. Ejemplo: @Geminis21 ha retado a @SoraTakarai a un duelo por 300 puntos
-- **!rules** Mostrará las reglas de los duelos
-- **!myduels** Mostrará la estadistica de duelos de quien lo ejecute
-- **!mvD** Mostrará quien es el mejor duelista de Hogwarts
-- **!wD** Mostrará quien es el peor duelista de Hogwarts
-- **!mvD [gryff|raven|huff|slyth]** Mostrará quien es el mejor duelista de una casa
-- **!wD [gryff|raven|huff|slyth]** Mostrará quien es el peor duelista de una casa
-- **!dip** Listará los duelos activos (estatus 1,2)
-- **!mycurrentduel** Mostrará la información del duelo activo
+- [x] **!accept:** Aceptar un duelo.
+- [x] **!decline:** Rechazar un duelo.
+- [x] **!cancel [idDuelo]:** Cancela un duelo (Solo lo podran ejecutar el streamer o un mod)
+- [x] **!runduel: [idDuelo]** Iniciará un duelo de manera forzada (Solo lo podrán ejecutar el streamer o un mod)
+- [x] **!infoduel [idDuelo]** Mostrará la informacion de duelo. Ejemplo: @Geminis21 ha retado a @SoraTakarai a un duelo por 300 puntos
+- [ ] **!rules** Mostrará las reglas de los duelos
+- [ ] **!myduels** Mostrará la estadistica de duelos de quien lo ejecute
+- [ ] **!mvD** Mostrará quien es el mejor duelista de Hogwarts
+- [ ] **!wD** Mostrará quien es el peor duelista de Hogwarts
+- [ ] **!mvD [gryff|raven|huff|slyth]** Mostrará quien es el mejor duelista de una casa
+- [ ] **!wD [gryff|raven|huff|slyth]** Mostrará quien es el peor duelista de una casa
+- [x] **!dip** Listará los duelos activos (estatus 1,2)
+- [x] **!mycurrentduel** Mostrará la información del duelo activo
 
 ## Posibles estatus del duelo:
 * 0: **Cancelado** (Cuando el streamer o un mod deciden cancelar un duelo)
