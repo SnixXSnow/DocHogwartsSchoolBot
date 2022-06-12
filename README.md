@@ -30,13 +30,21 @@ Los comandos disponibles para toda la comunidad son:
 - !students
 - !myhouse
 - !house @username
+- !top[3-10]
+- !top[3-10] [gryff|raven|huff|slyth]
+- !duel @usuario [1-300]
+- !accept
+- !decline
+- !infoduel [idDuelo]
+- !mycurrentduel
 
 Los comandos para mods son los siguientes:
 - !join @username [gryff|raven|huff|slyth]
 - !add @username X (Donde X es el numero de puntos a otorgar al usuario)
 - !take @username X (Donde X es el numero de puntos a quitar al usuario)
-
-
+- !cancel [idDuelo]
+- !runduel [idDuelo]
+- !dip
 
 ## NOTAS IMPORTANTES
 
